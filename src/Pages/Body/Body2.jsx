@@ -24,7 +24,13 @@ export const Body2 = () =>{
     return(
         <div>
             <div id="formBody">
-                  
+                  <div id="topForm">
+                    <p id="getTitle">Let's Get You <span id="ready">  Ready  </span></p>
+                    <p id="getStitle">The One Stop to Upgrade Your Resume. Expand Your Skillset. Do An Internship. Get Placed</p>
+                  </div>
+                  <div id="bottomForm">
+
+                  </div>
             </div>
             <div id="main">
                 <div id="leftItem">

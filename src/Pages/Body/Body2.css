@@ -48,7 +48,37 @@ span{
     color: rgb(223,30,46);
 }
 #formBody{
-    width:100%;
-    height:450px;
-    background: rgb(165, 165, 165);
+    width:1475px;
+    height:410px;
+    background: url(../../Components/images/companies/bg.jpg);
+    display: flex;
+    flex-direction: column;
+}
+#topForm{
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    line-height: 5px;
+    opacity: 10;
+}
+#bottomForm{
+    background: white;
+    opacity: 0.8;
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 130px;
+}
+#getTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+#ready{
+    background: red;
+    color: white;
+}
+#getStitle{
+    font-size: 18px;
+    color: rgb(85, 85, 85);
 }
