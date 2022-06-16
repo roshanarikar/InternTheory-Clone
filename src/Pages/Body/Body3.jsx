@@ -11,6 +11,7 @@ import skill1 from "../../Components/images/interships/skill1.jpg"
 import skill2 from "../../Components/images/interships/skill2.jpg"
 import skill3 from "../../Components/images/interships/skill3.jpg"
 import tree from "../../Components/images/interships/tree.png"
+import { Carousel } from "./Carousel"
 
 export const Body3 = () =>{
     return(
@@ -48,6 +49,10 @@ export const Body3 = () =>{
                     </div>
                 </div>
             </div>
+            <div id="main6">
+            
+            </div>
+            <Carousel/>
         </div>
     )
 }
