@@ -41,8 +41,9 @@ export const Body3 = () =>{
                    <a href=""><img id="treeimg" src={tree} alt="" /></a>
                 </div>
                 <div id="right4Item">
-                    <div>
+                    <div id="growCont">
                         <div id="headline"><p>WE ARE CONSTANTLY <span>GROWING</span></p></div>
+                        <div id="line"></div>
                         <div id="subtitle"><p>We are on a mission to help every student in India. Upgrading your CV and getting you a meaningful job remains our sole motive and we are not stopping anytime soon.</p></div>
                     </div>
                 </div>

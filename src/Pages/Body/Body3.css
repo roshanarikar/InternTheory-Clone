@@ -37,7 +37,7 @@
 #main5{
    display: flex;
    flex-direction: row;
-   height: 400px;
+   height: 350px;
 }
 #left4Item{
     width: 50%;
@@ -58,5 +58,11 @@
 }
 #treeimg{
     width: 300px;
-    height: 300px
+    height: 300px;
+    padding-left: 150px;
+}
+#growCont{
+    width: 65%;
+    height: 200px;
+    margin: 100px;
 }
