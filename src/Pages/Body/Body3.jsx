@@ -10,6 +10,7 @@ import intern8 from "../../Components/images/interships/inter8.jpg"
 import skill1 from "../../Components/images/interships/skill1.jpg"
 import skill2 from "../../Components/images/interships/skill2.jpg"
 import skill3 from "../../Components/images/interships/skill3.jpg"
+import tree from "../../Components/images/interships/tree.png"
 
 export const Body3 = () =>{
     return(
@@ -34,6 +35,17 @@ export const Body3 = () =>{
                     <div><a href=""><img className="skillC" src={skill2} alt="" /></a></div>
                     <div><a href=""><img className="skillC" src={skill3} alt="" /></a></div>
               </div>
+            </div>
+            <div id="main5">
+                <div id="left4Item">
+                   <a href=""><img id="treeimg" src={tree} alt="" /></a>
+                </div>
+                <div id="right4Item">
+                    <div>
+                        <div id="headline"><p>WE ARE CONSTANTLY <span>GROWING</span></p></div>
+                        <div id="subtitle"><p>We are on a mission to help every student in India. Upgrading your CV and getting you a meaningful job remains our sole motive and we are not stopping anytime soon.</p></div>
+                    </div>
+                </div>
             </div>
         </div>
     )
