@@ -1,0 +1,49 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+#leftItem{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#rightItem{
+    width: 50%;
+}
+#line{
+    border: 0.3px solid grey;
+}
+#companies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-right: 30px;
+}
+img{
+    width: 100px;
+    height: 70px;
+    margin-left: 5px;
+}
+#headline{
+    font-weight: 900;
+    font-size: 25px;
+}
+#headline > p{
+    font-weight: bold;
+}
+#leftContent{
+    width: 90%;
+    margin: auto;
+    height: 200px;
+}
+#subtitle{
+    font-size: 13px;
+    font-weight: 800;
+}
+#subtitle > p{
+    font-weight: 400;
+}
+span{
+    color: rgb(223,30,46);
+}
