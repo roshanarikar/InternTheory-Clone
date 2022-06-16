@@ -11,10 +11,11 @@ export const Footer = () =>{
                 <div id="content">
                     <div id="topItem">
                         <div id="social">
-                            <a href=""><img src={fb} alt="" /></a>
-                            <a href=""><img src={ld} alt="" /></a>
-                            <a href=""><img src={tw} alt="" /></a>
-                            <a href=""><img src={ig} alt="" /></a></div>
+                            <a href=""><img className="simg" src={fb} alt="" /></a>
+                            <a href=""><img className="simg" src={ld} alt="" /></a>
+                            <a href=""><img className="simg" src={tw} alt="" /></a>
+                            <a href=""><img className="simg" src={tw} alt="" /></a>
+                            <a href=""><img className="simg" src={ig} alt="" /></a></div>
                         <div id="byFooter">
                                 <p>BY PLACE</p>
                                 <div id="line"></div>
@@ -43,7 +44,7 @@ export const Footer = () =>{
                                 <p>Work From Home Interships</p>
                         </div>
                     </div>
-                    <div id="bottomItem">
+                    <div id="bottomItemFooter">
                         <div id="refund"><a href=""><p>REFUND & CANCELLATION POLICY</p></a><a href=""><p>COURSES</p></a>
                         <a href=""><p>TERMS AND CONDITIONS</p></a><a href=""><p>PRIVACY POLICY</p></a>
                         <a href=""><p>CONTACT US</p></a><a href=""><p>ABOUT US</p></a><a href=""><p>SITE MAP</p></a></div>

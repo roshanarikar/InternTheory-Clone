@@ -14,7 +14,7 @@
     width: 80%;
     flex-direction: row;
 }
-#bottomItem{
+#bottomItemFooter{
     display: flex;
     margin: auto;
     width: 80%;
@@ -41,7 +41,7 @@
     color: white;
     margin-top: 50px;
 }
-img{
+.simg{
     width: 22px;
     height: 20px;
     padding: 2px;

@@ -23,6 +23,9 @@ import logo20 from "../../Components/images/companies/logo-21.png"
 export const Body2 = () =>{
     return(
         <div>
+            <div id="formBody">
+                  
+            </div>
             <div id="main">
                 <div id="leftItem">
                     <div id="leftContent">

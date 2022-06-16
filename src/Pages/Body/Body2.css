@@ -47,3 +47,8 @@ img{
 span{
     color: rgb(223,30,46);
 }
+#formBody{
+    width:100%;
+    height:450px;
+    background: rgb(165, 165, 165);
+}
