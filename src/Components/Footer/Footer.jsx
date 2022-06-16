@@ -17,6 +17,7 @@ export const Footer = () =>{
                             <a href=""><img src={ig} alt="" /></a></div>
                         <div id="byFooter">
                                 <p>BY PLACE</p>
+                                <div id="line"></div>
                                 <p>Interships In Mumbai</p>
                                 <p>Interships In Delhi</p>
                                 <p>Interships In Bangalore</p>
@@ -26,6 +27,7 @@ export const Footer = () =>{
                         </div>
                         <div id="byFooter">
                                 <p>BY PROFILE</p>
+                                <div id="line"></div>
                                 <p>Marketing Interships</p>
                                 <p>Business Development Interships</p>
                                 <p>Content Writing Interships</p>
@@ -35,17 +37,18 @@ export const Footer = () =>{
                         </div>
                         <div id="byFooter">
                                 <p>BY TYPE</p>
+                                <div id="line"></div>
                                 <p>Full Time Interships</p>
                                 <p>Part Time</p>
                                 <p>Work From Home Interships</p>
-                                <p></p>
-                                <p></p>
                         </div>
                     </div>
                     <div id="bottomItem">
-                        <a href=""><p>REFUND & CANCELLATION POLICY</p></a><a href=""><p>COURSES</p></a>
+                        <div id="refund"><a href=""><p>REFUND & CANCELLATION POLICY</p></a><a href=""><p>COURSES</p></a>
                         <a href=""><p>TERMS AND CONDITIONS</p></a><a href=""><p>PRIVACY POLICY</p></a>
-                        <a href=""><p>CONTACT US</p></a><a href=""><p>ABOUT US</p></a><a href=""><p>SITE MAP</p></a>
+                        <a href=""><p>CONTACT US</p></a><a href=""><p>ABOUT US</p></a><a href=""><p>SITE MAP</p></a></div>
+                        <div id="line"></div>
+                        <div id="company"><p>©2015-2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p></div>
                     </div>
                 </div>
             </div>
