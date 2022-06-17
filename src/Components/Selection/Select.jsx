@@ -33,8 +33,9 @@ const options2 = [
     { value: 'FINANCE', label: 'FINANCE' }
 ]
 
-export const MyComponent = () => (
-   <div id='mainBox1'>
+export const SelectionComponent = () => (
+   <div id='bottomForm'>
+    <div id='mainBox1'>
         <div className='box'><Select options={options1} placeholder="Cities..." /></div>
         <div className='box'><Select options={options2} placeholder="Types..." /></div>
         <div className='box'><Select options={options3} placeholder="Preferences" /></div>
@@ -42,5 +43,6 @@ export const MyComponent = () => (
         <div id='SearchBox'><div id='searchInput'><input type="text" placeholder='Search...'/></div>
              <div><button id='SearchBtn'>Search</button></div>
              </div>
+   </div>
    </div>
 )

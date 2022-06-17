@@ -42,3 +42,12 @@ input{
 option{
     border: none;
 }
+#bottomForm{
+    background: white;
+    opacity: 0.8;
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 130px;
+    cursor: pointer;
+}

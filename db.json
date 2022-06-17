@@ -1,0 +1,145 @@
+{
+    "interships": [
+    { "id": 1, "image": "https://assets.interntheory.com/uploads/company/companylogos/62362fbf882221470f099d8d0a119df93ce19831/7e34b7356b30b3696d14fcab94c6e8989a42fd69com.jpg",
+        "role": "Sales Officer", 
+        "company": "Laugh Out Loud Ventures",
+        "work" : "Part Time,Work From Home Internship Marketing", 
+        "location" : "Mumbai,Bangalore,Delhi", "stipend": "3000 - 6000 per month", 
+        "duration" : "4-6 Weeks left"
+    },
+    { "id": 2, "image": "https://assets.interntheory.com/uploads/company/companylogos/be02b6cd79b216cc36903d48ee57bf3d0cd57886/9b967ae30bee37de14cc21840db0613b5dd52aadcom.jpg", 
+        "role": "Event Management and Marketing", 
+        "company": "Partystarters",
+        "work" : "Full Time Internship", 
+        "location" : "Mumbai", "stipend": "2500 - 5000 per month", 
+        "duration" : "4 Weeks left"
+    },
+    { "id": 3, "image": "https://assets.interntheory.com/uploads/company/logos/bdcbf6704bbfbf34d0705fe83d64540e7e2a1a57.jpg", 
+        "role": "Operations & Backoffice", 
+        "company": "Employee crossings",
+        "work" : "Full Time Internship", 
+        "location" : "Thane", "stipend": "10000 per month", 
+        "duration" : "4 Weeks left"
+    },
+    { "id": 4, "image": "https://assets.interntheory.com/uploads/company/logos/dec6627e07033fe66229268586e8a1a11fca57ce.jpg", 
+        "role": "Business Strategy Intern", 
+        "company": "Mingout Social Technologies Ltd.",
+        "work" : "Full Time,Work From Home Internship", 
+        "location" : "Gurgaon,Delhi", "stipend": "5000 per month", 
+        "duration" : "3 Weeks left"
+    },
+    { "id": 5, "image": "https://assets.interntheory.com/uploads/company/logos/6c0a3b959003ddb8e782d29244401adfea28a06d.jpg", "role": "IT Intern", 
+        "company": "St. Jude India Childcare Centres",
+        "work" : "Full Time Internship", 
+        "location" : "Mumbai", "stipend": "5000 per month", 
+        "duration" : "3 Weeks left"
+    },
+    { "id": 6, "image": "https://assets.interntheory.com/uploads/company/logos/6b361060eea36ca28346f57efae2392d124b54db.jpg", "role": "Digital Marketing Intern", 
+        "company": "The Digital Walrus",
+        "work" : "The Digital Walrus", 
+        "location" : "Jaipur", "stipend": "5000 - 8000 per month", 
+        "duration" : "4-6 Weeks left"
+    },
+    { "id": 7, "image": "https://assets.interntheory.com/uploads/company/logos/36e891e73e1a3a143032f938c3c5cfedf893180d.jpg", 
+        "role": "HR Intern", 
+        "company": "Vinosha portfolio Pvt Ltd",
+        "work" : "Part Time,Work From Home Internship Marketing", 
+        "location" : "Noida", "stipend": "7000 per scale", 
+        "duration" : "4-6 Weeks left"
+    },
+    { "id": 8, "image": "https://assets.interntheory.com/uploads/company/logos/899799e892ae1216b240c0f71d54d624e7613f77.jpg", 
+        "role": "Digital Marketing Intern", 
+        "company": "BitClass",
+        "work" : "Full Time Internship Digital Marketing", 
+        "location" : "Bangalore", "stipend": "10000 per month", 
+        "duration" : "4-6 Weeks left"
+    },
+    { "id": 9, "image": "https://assets.interntheory.com/uploads/company/logos/6c0a3b959003ddb8e782d29244401adfea28a06d.jpg",
+         "role": "Social Media internship", 
+        "company": "Gokrazee Innovations Private Limited",
+        "work" : "Part Time,Work From Home Internship Marketing", 
+        "location" : "Mumbai,Bangalore,Delhi", "stipend": "5000 per month", 
+        "duration" : "3 Weeks left"
+    },
+    { "id": 10, "image": "https://assets.interntheory.com/uploads/company/logos/6c0a3b959003ddb8e782d29244401adfea28a06d.jpg", "role": "Social Media Intern - Instagram", 
+        "company": "Gokrazee Innovations Private Limited",
+        "work" : "Work From Home Internship Marketing", 
+        "location" : "Mumbai,Bangalore,Delhi", "stipend": "5000 per month", 
+        "duration" : "3 Weeks left"
+    }
+
+
+    ],
+    "jobs": [
+        { "id": 1, "image": "https://assets.interntheory.com/uploads/company/logos/5e4aa4f62ecc23200708c5cf0d542f7ee1345362.jpg", 
+            "role": "Digital Marketing", 
+            "company": "arham labs",
+            "work" : "Digital Marketing", 
+            "location" : "Mumbai", "salary": "50000 - 65000 per month", 
+            "duration" : "4 Weeks left"
+        },
+        { "id": 2, "image": "https://assets.interntheory.com/uploads/company/logos/1b516583445affa5f1659f66a1bb5066ba0409ba.jpg", 
+            "role": "Admin Executive", 
+            "company": "WorkWise Solutions Pvt Ltd",
+            "work" : "Admin", 
+            "location" : "Mumbai", "salary": "21000 per month", 
+            "duration" : "3 Weeks left"
+        },
+        { "id": 3, "image": "https://assets.interntheory.com/uploads/company/logos/5e4aa4f62ecc23200708c5cf0d542f7ee1345362.jpg", 
+            "role": "Hybrid Mobile App Development", 
+            "company": "arham labs",
+            "work" : "App Design And Development", 
+            "location" : "Mumbai", "salary": "50000 - 70000 per month", 
+            "duration" : "2 Weeks left"
+        },
+        { "id": 4, "image": "https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg", 
+            "role": "Strategy Associate", 
+            "company": "HomeCapital",
+            "work" : "Business Strategy", 
+            "location" : "Mumbai", "salary": "60000 - 80000 per month", 
+            "duration" : "4-6 Weeks left"
+        },
+        { "id": 5, "image": "https://assets.interntheory.com/uploads/company/companylogos/eef24376f8ef94fcc6f44e84b4275f006f9f05d4/c1de81e99cb1e58751a9f2db58529a775aba3f5ccom.png", 
+            "role": "Admin Executive", 
+            "company": "istituto marangoni",
+            "work" : "Admin", 
+            "location" : "Mumbai", "salary": "40000 - 50000 per month", 
+            "duration" : "2 Weeks left"
+        },
+        { "id": 6, "image": "https://assets.interntheory.com/uploads/company/companylogos/eef24376f8ef94fcc6f44e84b4275f006f9f05d4/c1de81e99cb1e58751a9f2db58529a775aba3f5ccom.png", 
+            "role": "Customer Relationship Executive", 
+            "company": "istituto marangoni",
+            "work" : "Business Development", 
+            "location" : "Mumbai", "salary": "25000 - 30000 per month", 
+            "duration" : "2 Weeks left"
+        },
+        { "id": 7, "image": "https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg", 
+            "role": "Technical Writer", 
+            "company": "HomeCapital",
+            "work" : "Content Writing", 
+            "location" : "Mumbai", "salary": "50000 - 60000 per month", 
+            "duration" : "1 Weeks left"
+        },
+        { "id": 8, "image": "https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg", 
+            "role": "Full Stack Developer", 
+            "company": "HomeCapital",
+            "work" : "Software Development", 
+            "location" : "Mumbai", "salary": "65000 - 100000 per month", 
+            "duration" : "6 days left"
+        },
+        { "id": 9, "image": "https://assets.interntheory.com/uploads/company/logos/5e4aa4f62ecc23200708c5cf0d542f7ee1345362.jpg", 
+            "role": "Java Developer", 
+            "company": "arham labs",
+            "work" : "Software Development", 
+            "location" : "Mumbai", "salary": "50000 - 70000 per month", 
+            "duration" : "6 days left"
+        },
+        { "id": 10, "image": "https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg", 
+            "role": "Front End Developer", 
+            "company": "HomeCapital",
+            "work" : "Software Development", 
+            "location" : "Mumbai", "salary": "50000 - 60000 per month", 
+            "duration" : "6 days left"
+        }
+    ]
+  }
