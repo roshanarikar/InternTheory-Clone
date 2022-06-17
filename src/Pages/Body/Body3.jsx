@@ -19,14 +19,14 @@ export const Body3 = () =>{
             <div id="main3">
                 <p id="workTitle">LET'S GET SOME <span>WORK EXPERIENCE</span></p>
                 <div id="intern">
-                    <div><a href=""><img className="img" src={intern1} alt="" /></a></div>
-                    <div><a href=""><img className="img" src={intern2} alt="" /></a></div>
-                    <div><a href=""><img className="img" src={intern3} alt="" /></a></div>
-                    <div><a href=""><img className="img" src={intern4} alt="" /></a></div>
-                    <div><a href=""><img className="img" src={intern5} alt="" /></a></div>
-                    <div><a href=""><img className="img" src={intern6} alt="" /></a></div>
-                    <div><a href=""><img className="img" src={intern7} alt="" /></a></div>
-                    <div><a href=""><img className="img" src={intern8} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern1} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern2} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern3} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern4} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern5} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern6} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern7} alt="" /></a></div>
+                    <div className="workCard"><a href=""><img className="img" src={intern8} alt="" /></a></div>
                 </div>
             </div>
             <div id="main4">

@@ -19,6 +19,7 @@ import logo17 from "../../Components/images/companies/logo-18.png"
 import logo18 from "../../Components/images/companies/logo-19.png"
 import logo19 from "../../Components/images/companies/logo-20.png"
 import logo20 from "../../Components/images/companies/logo-21.png"
+import { MyComponent } from "../../Components/Selection/Select"
 
 export const Body2 = () =>{
     return(
@@ -29,7 +30,7 @@ export const Body2 = () =>{
                     <p id="getStitle">The One Stop to Upgrade Your Resume. Expand Your Skillset. Do An Internship. Get Placed</p>
                   </div>
                   <div id="bottomForm">
-
+                    <div><MyComponent/></div>
                   </div>
             </div>
             <div id="main">

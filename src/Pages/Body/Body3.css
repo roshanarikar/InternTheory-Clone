@@ -1,16 +1,23 @@
 #main3{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 520px;
+    height: 600px;
+    background: rgb(247,252,254);
 }
 #intern{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    width: 78%;
+    margin: auto;
+    margin-top: 1px;
+}
+.workCard{
+    gap: 10px;
 }
 .img{
-    width: 300px;
+    width: 280px;
     height: 180px;
 }
 #workTitle{
@@ -67,11 +74,13 @@
     margin: 100px;
 }
 #main6{
-    width: 100%;
+    width: 1480px;
     height: 280px;
     background: rgb(238,238,238);
 }
 #corousalItem{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     padding-top: 20px;
+    width: 1000px;
+    margin: auto;
 }
