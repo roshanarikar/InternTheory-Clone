@@ -68,6 +68,10 @@ span{
     height: 100px;
     margin: auto;
     margin-bottom: 130px;
+    cursor: pointer;
+}
+input::after{
+    border: none;
 }
 #getTitle{
     font-size: 30px;

@@ -8,7 +8,7 @@ export const Navbar = () =>{
             <div className="main">
             <div id="leftNav">
                 <div>Toggle</div>
-                <div><img id="logoimg" src={logo} alt="logo" srcset=""/></div>
+                <div><a href=""><img id="logoimg" src={logo} alt="logo" srcset=""/></a></div>
             </div>
             <div id="rightNav">
                 <div><a href=""><img id="cartimg" src={cart} alt="cart" srcset=""/></a></div>
