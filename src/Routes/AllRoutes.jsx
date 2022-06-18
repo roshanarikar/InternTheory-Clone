@@ -5,6 +5,7 @@ import { Body2 } from "../Pages/Body/Body2"
 import { Contact } from "../Pages/Contact/Contact"
 import { Interships } from "../Pages/Interships/Intership"
 import { Jobs } from "../Pages/Jobs/Jobs"
+import { Login } from "../Pages/Login/Login"
 
 export const AllRoutes = () =>{
     return(
@@ -21,7 +22,7 @@ export const AllRoutes = () =>{
                 <Route path="/post"></Route>
                 <Route path="/courses"></Route>
                 <Route path="/register"></Route>
-                <Route path="/login"></Route>
+                <Route path="/login" element={<Login/>}></Route>
             </Routes> 
             <Footer/>
         </div>
