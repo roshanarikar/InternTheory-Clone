@@ -1,55 +1,45 @@
-import { todosActions } from "./action";
-
-const initState = {
-  loading: false,
-  todos: [],
-  error: false
+import * as types from "./actionTypes";
+const initialState = {
+  cart: [],
+  error: "",
+  loading: false
+  
 };
 
-export const todosReducer = (state = initState, action) => {
-  switch (action.type) {
-    case todosActions.GET_TODO_REQUEST: {
+const cartReducer = (state = initialState, action) => {
+  const { type, payload } = action;
+  switch (type) {
+    case types.FETCH_DATA_REQUEST:
       return {
         ...state,
+        error: "",
         loading: true,
-        error: false
       };
-    }
-    case todosActions.GET_TODO_SUCCESS: {
+
+    case types.FETCH_DATA_SUCCESS:
       return {
         ...state,
+        products: payload,
+        error: "",
         loading: false,
-        todos: action.payload
       };
-    }
-    case todosActions.GET_TODO_FAILURE: {
+
+    case types.FETCH_DATA_FAILURE:
       return {
         ...state,
+        error: payload,
         loading: false,
-        error: true
       };
-    }
-    case todosActions.ADD_TODO_REQUEST: {
-      return {
-        ...state,
-        loading: true,
-        error: false
-      };
-    }
-    case todosActions.ADD_TODO_SUCCESS: {
-      return {
-        ...state,
-        loading: false
-      };
-    }
-    case todosActions.ADD_TODO_FAILURE: {
-      return {
-        ...state,
-        loading: false,
-        error: true
-      };
-    }
     default:
       return state;
   }
 };
+
+export default cartReducer;
+
+
+
+
+
+
+

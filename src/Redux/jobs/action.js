@@ -1,82 +1,39 @@
-import axios from "axios";
-import { batch } from "react-redux";
+import Axios from "axios";
+import * as types from "./actionTypes";
 
-export const todosActions = {
-  GET_TODO_REQUEST: "GET_TODO_REQUEST",
-  GET_TODO_SUCCESS: "GET_TODO_SUCCESS",
-  GET_TODO_FAILURE: "GET_TODO_FAILURE"
+const fetchDataRequest = (payload) => {
+  return {
+    type: types.FETCH_DATA_REQUEST,
+    payload,
+  };
 };
 
-// action creators
-export const getTodoRequest = () => ({
-  type: todosActions.GET_TODO_REQUEST
-});
+const fetchDataSuccess = (payload) => {
+  return {
+    type: types.FETCH_DATA_SUCCESS,
+    payload,
+  };
+};
 
-export const getTodoSuccess = (data) => ({
-  type: todosActions.GET_TODO_SUCCESS,
-  payload: data
-});
+const fetchDataFailure = (payload) => {
+  return {
+    type: types.FETCH_DATA_FAILURE,
+    payload,
+  };
+};
 
-export const getTodoFailure = () => ({
-  type: todosActions.GET_TODO_FAILURE
-});
+const fetchData1 = (payload) => {
+  return (dispatch) => {
+    dispatch(fetchDataRequest());
 
-export const getTodos = () => (dispatch, getState) => {
-  const todoRequestAction = getTodoRequest();
-  dispatch(todoRequestAction);
-  return axios({
-    url: "https://json-server-mocker-masai.herokuapp.com/tasks",
-    method: "GET"
-  })
-    .then((res) => {
-      const todoSuccessAction = getTodoSuccess(res.data);
-      dispatch(todoSuccessAction);
+    Axios.get("http://localhost:8080/jobs", {
+      params: {
+        ...payload,
+      },
     })
-    .catch((err) => {
-      const todoErrorAction = getTodoFailure();
-      dispatch(todoErrorAction);
-    });
+      .then((r) => dispatch(fetchDataSuccess(r.data)))
+      .catch((e) => dispatch(fetchDataFailure(e.data)));
+  };
 };
 
-console.log(getTodos());
-
-// 1. auth, token
-// 2. its not in the todo reducer / todo object
-// 3. an API request which needs you to pass an API Key
-// 4. how will you do it in this request
-
-// action creators
-export const addTodoRequest = () => ({
-  type: todosActions.ADD_TODO_REQUEST
-});
-
-export const addTodoSuccess = (data) => ({
-  type: todosActions.ADD_TODO_SUCCESS,
-  payload: data
-});
-
-export const addTodoFailure = () => ({
-  type: todosActions.ADD_TODO_FAILURE
-});
-
-export const addTodos = ({ title }) => (dispatch) => {
-  const todoRequestAction = addTodoRequest();
-  dispatch(todoRequestAction);
-  return axios({
-    url: "https://json-server-mocker-masai.herokuapp.com/tasks",
-    method: "POST",
-    data: {
-      title,
-      status: false
-    }
-  })
-    .then((res) => {
-      const todoSuccessAction = addTodoSuccess();
-      dispatch(todoSuccessAction);
-      console.log(todoSuccessAction)
-    })
-    .catch((err) => {
-      const todoErrorAction = addTodoFailure();
-      dispatch(todoErrorAction);
-    });
-};
+export {fetchData1}

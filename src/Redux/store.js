@@ -6,9 +6,10 @@ import {
   from "redux";
 
 import thunk from "redux-thunk";
-import productReducer from "./Interships/reducer";
+import  productReducer  from "./Interships/reducer";
+import  cartReducer  from "./jobs/reducer";
 
-const rootReducer = combineReducers ({ecommerceData: productReducer})
+const rootReducer = combineReducers ({ecommerceData: productReducer , cartData: cartReducer})
 
 const composeEnhancers = window._REDUX_DEVTOOLS_EXTENSION_COMPOSE_ || compose;
 
