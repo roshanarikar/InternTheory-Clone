@@ -6,7 +6,7 @@ import {
   from "redux";
 
 import thunk from "redux-thunk";
-import productReducer from "./products/reducer";
+import productReducer from "./Interships/reducer";
 
 const rootReducer = combineReducers ({ecommerceData: productReducer})
 
