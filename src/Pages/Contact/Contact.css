@@ -1,0 +1,15 @@
+#contactPage{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+#leftContact{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#says{
+    width: 600px;
+    margin: auto;
+}
