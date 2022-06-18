@@ -1,8 +1,9 @@
 import * as types from "./actionTypes";
 const initialState = {
-  interships: [],
+  products: [],
   error: "",
-  loading: false,
+  loading: false
+  
 };
 
 const reducer = (state = initialState, action) => {
