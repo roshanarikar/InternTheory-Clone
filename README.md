@@ -1,26 +1,24 @@
 # Intern Theory
 
-Ideakart is a site that gives u an idea about the book you want to buy. We offer a huge collection of books in diverse categories.
+Interships and Online Courses for College Students | Intern Theory
 
-We have a user friendly search engine and a quick delivery system. With this we even provide best discounts on our books. You can write to us for any idea or any help you need.
+We began as a quartet of 20-somethings, headed with one objective, to help our fellow mates land an internship. One year since, and we are a team of 12, with an extended family of thousands of students and companies using our services.
 
-Ideakart is a site that gives u an idea and a platform for the book you want. We offer a huge collection of books in diverse categories.
-
-We have a user friendly search engine and a quick delivery system. With this we even provide best discounts on our books. You can write to us for any idea or any help you need.
+Our fondest memory is that of the earliest calls we received from students who were ecstatic about landing an internship via our portal.
 
 
 SnapShots
 
 ![Photo](https://github.com/roshanarikar/InternTheory-Clone/blob/main/src/Components/images/Readme/S1.png?raw=true)
-![Photo](https://github.com/roshanarikar/IdeaCartClone/blob/main/cloneIdeaCart/my-app/src/components/Readme%20data/snap2.png?raw=true)
-![Photo](https://github.com/roshanarikar/IdeaCartClone/blob/main/cloneIdeaCart/my-app/src/components/Readme%20data/snap3.png?raw=true)
-![Photo](https://github.com/roshanarikar/IdeaCartClone/blob/main/cloneIdeaCart/my-app/src/components/Readme%20data/snap4.png?raw=true)
+![Photo](https://github.com/roshanarikar/InternTheory-Clone/blob/main/src/Components/images/Readme/S2.png?raw=true)
+![Photo](https://github.com/roshanarikar/InternTheory-Clone/blob/main/src/Components/images/Readme/S3.png?raw=true)
+![Photo](https://github.com/roshanarikar/InternTheory-Clone/blob/main/src/Components/images/Readme/S4.png?raw=true)
 
 
 
 ## Tech Stack
 
-**Client:** HTML, CSS, JavaScript, React, Redux
+**Client:**  React, Redux, CSS, JavaScript
 
 **Server:** NodeJS, Express, MongoDB
 
