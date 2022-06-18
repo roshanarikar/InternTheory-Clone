@@ -42,12 +42,14 @@ products.map((item) => (
         alt=""
       />
     </div>
-    <div className="companyDetails">
-      <div className="role">{item.role}</div>
-      <div className="company">{item.company}</div>
-      <div className="work">{item.work}</div>
-      <div className="location">{item.location}</div>
-      <div className="stipend">Stipend : {item.stipend}</div>
+    <div>
+    <ul className="companyDetails">
+      <li className="role">{item.role}</li>
+      <li className="company">{item.company}</li>
+      <li className="work">{item.work}</li>
+      <li className="location">{item.location}</li>
+      <li className="stipend">Stipend : {item.stipend}</li>
+    </ul>
     </div>
     <div className="duration">
       <div className="time">{item.duration}</div>

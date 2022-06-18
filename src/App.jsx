@@ -9,13 +9,13 @@ import { Jobs } from './Pages/Jobs/Jobs';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
-      {/* <Body2/>
+      {/* <Navbar/>
+      <Body2/>
       <Body3/>
-      <Footer/> */}
-      
-       {/* <Interships/> */}
-       <Jobs/>
+      <Footer/>
+       */}
+       <Interships/>
+       {/* <Jobs/> */}
     </div>
   );
 }

@@ -7,7 +7,9 @@ export const Navbar = () =>{
         <div>
             <div className="main">
             <div id="leftNav">
-                <div>Toggle</div>
+                <div>
+    
+                </div>
                 <div><a href=""><img id="logoimg" src={logo} alt="logo" srcset=""/></a></div>
             </div>
             <div id="rightNav">
@@ -18,3 +20,4 @@ export const Navbar = () =>{
         </div>
     )
 }
+

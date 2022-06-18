@@ -40,27 +40,28 @@
     flex-direction: column;
 }
 .role{
-    margin-right: 320px;
+    /* margin-right: 320px; */
+    margin: 0px;
     font-size: 20px;
     font-weight: 500;
     width: 80%;
 }
 .company{
-    margin-right: 240px;
+    /* margin-right: 240px; */
     font-size: 17px;
 }
 .work{
-    margin-right: 250px;
+    /* margin-right: 250px; */
     font-size: 15px;
     color: grey;
 }
 .location{
-    margin-right: 270px;
+    /* margin-right: 270px; */
     font-size: 15px;
     color: grey;
 }
 .stipend{
-    margin-right: 200px;
+    /* margin-right: 200px; */
     font-size: 16px;
 }
 
@@ -89,4 +90,7 @@ hr{
     height:1px;
     width:90%;
     margin-right: 60px;
+ }
+ ul{
+    list-style: none;
  }
