@@ -26,7 +26,7 @@ const fetchData1 = (payload) => {
   return (dispatch) => {
     dispatch(fetchDataRequest());
 
-    Axios.get("http://localhost:8080/jobs", {
+    Axios.get("https://interntheoryjob.herokuapp.com/jobs", {
       params: {
         ...payload,
       },

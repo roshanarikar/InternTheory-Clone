@@ -26,11 +26,11 @@ export const Interships = () => {
         />
       </div>
       <div id="cards">
-        <div>
-          <p>Fresher Job Jobs</p>
+        <div id="nameTitle">
+          <p>All Interships</p>
         </div>
         {
-products.map((item) => (
+products.interships?.map((item) => (
     <div key={item.id}>
         <div>
   <div className="OneCard">

@@ -30,7 +30,7 @@ export const Jobs = () => {
           <p>Fresher Job Jobs</p>
         </div>
         {
-jobs.map((item) => (
+jobs.jobs?.map((item) => (
     <div key={item.id}>
         <div>
   <div className="OneCard">
@@ -47,7 +47,7 @@ jobs.map((item) => (
       <div className="company">{item.company}</div>
       <div className="work">{item.work}</div>
       <div className="location">{item.location}</div>
-      <div className="stipend">Stipend : {item.salary}</div>
+      <div className="stipend">Salary : {item.salary}</div>
     </div>
     <div className="duration">
       <div className="time">{item.duration}</div>
