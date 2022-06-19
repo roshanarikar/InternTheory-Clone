@@ -53,6 +53,9 @@
   transition: left 0.3s ease-in-out;
   background-color: rgb(255, 255, 255);
 }
+button:hover{
+  background: rgb(138, 12, 12);
+}
 /* .sidebar-toggle {
   position: absolute;
   top: 20%;

@@ -1,6 +1,7 @@
 #footerMain{
     height: 400px;
-    width: 99%;
+    width: 100%;
+    margin: auto;
     background: rgb(68,100,120);
     color: white;
 }

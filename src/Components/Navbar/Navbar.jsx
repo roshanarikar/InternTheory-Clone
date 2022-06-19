@@ -22,8 +22,8 @@ export const Navbar = () =>{
                 <div><a href=""><img id="logoimg" src={logo} alt="logo" srcset=""/></a></div>
             </div>
             <div id="rightNav">
-                <div><a href=""><img id="cartimg" src={cart} alt="cart" srcset=""/></a></div>
-                <div><button id="signinBtn">SIGN IN</button></div>
+                <div><a href="/cart"><img id="cartimg" src={cart} alt="cart" srcset=""/></a></div>
+                <div><a href="/login"><button id="signinBtn">SIGN IN</button></a></div>
             </div>
             </div>
         </div>
