@@ -24,7 +24,5 @@ SnapShots
 
 
 ## Demo
-
-Github repo link:-  
-
-Deployed Link:-   
+  
+Deployed Link:-   https://intern-theory-clone-seven.vercel.app/
