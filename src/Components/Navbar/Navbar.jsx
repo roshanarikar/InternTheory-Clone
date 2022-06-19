@@ -19,7 +19,7 @@ export const Navbar = () =>{
                 <div>
                 <Button onClick={handleViewSidebar} />
                 </div>
-                <div><a href=""><img id="logoimg" src={logo} alt="logo" srcset=""/></a></div>
+                <div><a href="/"><img id="logoimg" src={logo} alt="logo" srcset=""/></a></div>
             </div>
             <div id="rightNav">
                 <div><a href="/cart"><img id="cartimg" src={cart} alt="cart" srcset=""/></a></div>
