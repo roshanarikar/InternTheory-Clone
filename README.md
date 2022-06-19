@@ -1,4 +1,4 @@
-# Intern Theory
+# Intern Theory Clone  | Individual Project
 
 Interships and Online Courses for College Students | Intern Theory
 
